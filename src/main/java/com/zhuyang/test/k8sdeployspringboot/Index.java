@@ -32,7 +32,7 @@ public class Index {
     public String info() throws InterruptedException {
         System.out.println("enter...s");
 //        testCreateUnit();
-        testCreateSku();
+//        testCreateSku();
         ;
         return "ok";
     }
