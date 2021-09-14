@@ -30,7 +30,16 @@ public class Index {
 
     @GetMapping(path = "/info")
     public String info() throws InterruptedException {
-        System.out.println("enter...s");
+        System.out.println("health");
+//        testCreateUnit();
+//        testCreateSku();
+        ;
+        return "ok";
+    }
+
+    @GetMapping(path = "/check")
+    public String check() throws InterruptedException {
+        System.out.println("check");
 //        testCreateUnit();
 //        testCreateSku();
         ;
