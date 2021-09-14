@@ -45,7 +45,14 @@ public class Index {
         ;
         return "ok";
     }
-
+    @GetMapping(path = "/")
+    public String home() throws InterruptedException {
+        System.out.println("home");
+//        testCreateUnit();
+//        testCreateSku();
+        ;
+        return "hello openshift";
+    }
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
