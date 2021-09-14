@@ -1,14 +1,9 @@
 package com.zhuyang.test.k8sdeployspringboot;
 
-import com.baidu.fsg.uid.impl.DefaultUidGenerator;
-import com.baidu.fsg.uid.worker.DisposableWorkerIdAssigner;
-import com.baidu.fsg.uid.worker.WorkerIdAssigner;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
